@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ETutor</string>
+    <string name="question0">环信是北京易掌云峰科技有限公司旗下一家全通讯能力云品牌服务商，环信品牌成立于2013年4月。是以IM即时通讯及移动在线客服为主要研发对象的专业型高科技的品牌，环信账号是环信公司在此应用下的聊天账号</string>
+    <string name="question1">您注册环信聊天账号用于在应用内与其他用户进行即时通讯，包括发送文件，语音，视频通话等应用核心功能。</string>
+    <string name="question2">环信聊天账号不使用任何用户隐私信息，您的环信账号与密码仅用于唯一标识，您与好友的聊天记录仅保存在本地，在APP卸载或者重装后删除</string>
+    <string name="question3">您无需手动注册环信账号，在您注册应用账号时，系统已自动为您注册环信聊天账号，同理，在登陆时，系统也将为您自动登陆环信聊天服务器</string>
+    <string name="question4">您在应用内与他人发起会话时，无需添加对方为好友，您与所有人的会话与聊天都将保存在手机存储中，删除或重装应用会导致信息丢失</string>
+    <string name="question5">如果您无法向对方发送消息，请先检查您的网络链接状况，网络连接正常的情况后等待应用提示连接环信聊天服务器成功的信息，如果还是无法发送消息，请尝试重新登陆或联系客服</string>
+    <string name="question6">如果您因为用户名或密码错误无法登陆，请尝试用 昵称+密码 的登陆方式，您可以在个人资料页面看到登陆信息，如果您忘记了您的密码，请尝试联系客服</string>
+    <string name="question7">如果您的账号被强制下线，根据下线弹出的对话框尝试修改密码或联系客服</string>
+    <string name="question8">如果您无法连接到服务器，在确认网络正常的情况下您可以尝试修改并测试应用连接端口，修改方法：长按登陆界面登陆按钮</string>
+    <string name="question9">在应用首页栏目顶端的输入框输入您要查找的内容，例如老师姓名，学校，专业等，在会话列表搜索您的聊天记录或好友</string>
+    <string name="question10">在您的用户类型为教师的情况下，提交教师信息能够提高您的教师资料完整度，提高您在教师库的排名，使学生或家长能够更方便的发现您</string>
+    <string name="question11">在个人资料页面根据不同的栏目输入您确切的信息后，点击返回按钮，在弹出的是否保存对话框上点击保存即可</string>
+    <string name="question12">在登陆页面收起软键盘后点击 “联系我们” 即可通过QQ联系在线客服(需要安装手机QQ客户端)</string>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="title">Title</string>
+    <string name="倒计时">重新发送(60)</string>
+    <string name="nickName">昵称</string>
+    <string name="inputPwd">请输入密码</string>
+    <string name="regist">输入手机号，快速注册</string>
+    <string name="区号">中国+86</string>
+    <string name="phone">手机号码</string>
+    <string name="lastStep">上一步</string>
+</resources>

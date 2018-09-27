@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:stv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/toolbar">
+
+        <RelativeLayout
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_marginTop="12dp"
+                android:id="@+id/message"
+                android:background="@mipmap/email"
+                android:layout_alignParentRight="true"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+            <ImageView
+                android:id="@+id/settings"
+                android:layout_marginTop="12dp"
+                android:background="@mipmap/setting"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_toLeftOf="@id/message"
+                android:layout_marginRight="16dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/toolbar">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/head"
+                    android:layout_centerVertical="true"
+                    android:background="@mipmap/fluidicon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/userPhone"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/head"
+                    android:layout_below="@id/userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <LinearLayout
+                android:background="@color/white"
+                android:paddingTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:paddingBottom="5dp">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@mipmap/mystar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="收藏" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:background="@mipmap/mymessage"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+                    <TextView
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="评价"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:background="@mipmap/list"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+                    <TextView
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="清单"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <com.allen.library.SuperTextView
+                android:id="@+id/personal_info"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                stv:sLeftTextString="个人资料"
+                stv:sRightIconRes="@drawable/arrow_right_red" />
+
+            <com.allen.library.SuperTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                stv:sLeftTextString="账号与安全"
+                stv:sRightIconRes="@drawable/arrow_right_red"
+                stv:sRightTextString="已保护" />
+
+            <com.allen.library.SuperTextView
+                android:id="@+id/edit_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                stv:sDividerLineType="bottom"
+                stv:sLeftTextString="修改密码"
+                stv:sRightIconRes="@drawable/arrow_right_red" />
+            <com.allen.library.SuperTextView
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                stv:sDividerLineType="bottom"
+                stv:sLeftTextString="退出登陆"
+                stv:sRightIconRes="@drawable/arrow_right_red" />
+
+            <com.allen.library.SuperTextView
+                android:id="@+id/contact_us"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                stv:sDividerLineType="both"
+                stv:sLeftTextString="意见反馈"
+                stv:sRightIconRes="@drawable/arrow_right_red" />
+
+            <com.allen.library.SuperTextView
+                android:id="@+id/about_us"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                stv:sDividerLineType="both"
+                stv:sLeftTextString="关于我们"
+                stv:sRightIconRes="@drawable/arrow_right_red" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

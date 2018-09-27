@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\ETutor\\EaseUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\程杰\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\030546e556fcdef7fdbb2a3db741f32d\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\ETutor\\EaseUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\程杰\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\030546e556fcdef7fdbb2a3db741f32d\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "D:\\ETutor\\EaseUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\程杰\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\030546e556fcdef7fdbb2a3db741f32d\\res\\drawable-v21\\abc_edit_text_material.xml"
+    }
+]

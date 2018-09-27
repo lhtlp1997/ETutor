@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com..etutor.com.jlu.etutor.activity.HelpActivity">
+    <com.vondear.rxtools.view.RxTitle
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:background="@color/blue"
+        app:title="常见问题"
+        app:titleColor="@color/white"
+        app:titleSize="20sp"
+        android:layout_height="60dp"/>
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
